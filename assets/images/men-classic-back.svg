@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 500" width="400" height="500">
+  <defs>
+    <filter id="shadow">
+      <feDropShadow dx="0" dy="5" stdDeviation="5" flood-opacity="0.1"/>
+    </filter>
+  </defs>
+  <!-- Main T-Shirt Body -->
+  <path d="M 140 40 Q 200 30 260 40 L 350 100 L 310 170 L 290 150 L 290 460 L 110 460 L 110 150 L 90 170 L 50 100 Z" fill="#ffffff" stroke="#e0e0e0" stroke-width="3" filter="url(#shadow)"/>
+  <!-- Collar Back -->
+  <path d="M 140 40 Q 200 45 260 40 Q 200 20 140 40" fill="#f5f5f5" stroke="#e0e0e0" stroke-width="2"/>
+  <!-- Arm stitches -->
+  <path d="M 110 150 L 140 50" fill="none" stroke="#e0e0e0" stroke-width="2" stroke-dasharray="3,3"/>
+  <path d="M 290 150 L 260 50" fill="none" stroke="#e0e0e0" stroke-width="2" stroke-dasharray="3,3"/>
+</svg>

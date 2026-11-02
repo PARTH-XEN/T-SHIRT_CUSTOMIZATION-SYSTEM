@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 500" width="400" height="500">
+  <defs>
+    <filter id="shadow">
+      <feDropShadow dx="0" dy="5" stdDeviation="5" flood-opacity="0.1"/>
+    </filter>
+  </defs>
+  <!-- Oversized Back -->
+  <path d="M 130 40 Q 200 30 270 40 L 380 140 L 340 220 L 310 190 L 310 470 L 90 470 L 90 190 L 60 220 L 20 140 Z" fill="#ffffff" stroke="#e0e0e0" stroke-width="3" filter="url(#shadow)"/>
+  <!-- Collar Back -->
+  <path d="M 130 40 Q 200 50 270 40 Q 200 20 130 40" fill="#f5f5f5" stroke="#e0e0e0" stroke-width="2"/>
+  <!-- Arm stitches -->
+  <path d="M 90 190 L 130 40" fill="none" stroke="#e0e0e0" stroke-width="2" stroke-dasharray="3,3"/>
+  <path d="M 310 190 L 270 40" fill="none" stroke="#e0e0e0" stroke-width="2" stroke-dasharray="3,3"/>
+</svg>
